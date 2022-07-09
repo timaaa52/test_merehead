@@ -1,0 +1,18 @@
+.card {
+	border: 2px solid black;
+	width: 350px;
+	min-height: 200px;
+	border-radius: 5px;
+	text-align: center;
+	margin-left: 5px;
+	margin-top: 5px;
+	background-color: antiquewhite;
+}
+
+.card_block {
+	margin-bottom: 10px;
+}
+
+.card_btn {
+	margin-bottom: 5px;
+}
