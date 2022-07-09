@@ -1,0 +1,7 @@
+export enum action_types {
+	GET_USERS = 'GET_USERS',
+	SET_USERS = 'SET_USERS',
+	DELETE_USER = 'DELETE_USER',
+	UPDATE_USER = 'UPDATE_USER',
+	CREATE_USER = 'CREATE_USER',
+}
