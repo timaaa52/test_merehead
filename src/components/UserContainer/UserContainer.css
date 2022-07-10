@@ -6,11 +6,6 @@
 
 .users_block {
 	display: flex;
-	justify-content: start;
+	justify-content: space-between;
 	flex-wrap: wrap;
-}
-
-a {
-	color: #fff !important;
-	text-decoration: none;
 }
