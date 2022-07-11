@@ -7,6 +7,9 @@
 	margin-left: 5px;
 	margin-top: 10px;
 	background-color: antiquewhite;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .card_block {
