@@ -45,8 +45,8 @@ export const UserCard: FC<UserCartPropType> = ({ name, surname, descr, id }) => 
         </div>
       </div>
       <div className="card_btn">
-        <Button variant="outlined" style={{ marginRight: '10px' }} onClick={() => changeEditMode()}>Edit</Button>
-        <Button variant="contained" onClick={() => dispatch(deleteUser(id))}>Delete</Button>
+        <Button variant="outlined" style={{ marginRight: '10px' }} onClick={() => changeEditMode()}>{editMode ? 'Save' : 'Edit'}</Button>
+        <Button variant="contained" onClick={() => dispatch(deleteUser(id))}>Delete Card</Button>
       </div>
     </div>
   )
